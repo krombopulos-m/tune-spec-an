@@ -107,6 +107,9 @@ class GUI(qw.QWidget):
     def click2(self):
         print("click2")
 
+    def test(self):
+        print('self')
+
 if __name__ == '__main__':
 
     #myApp = qw.QApplication([])
